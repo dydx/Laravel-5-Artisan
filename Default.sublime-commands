@@ -1,0 +1,73 @@
+[{
+	"id" : "sublimeartisanmigrate",
+	"caption" : "Sublime Artisan Migrate",
+	"command" : "sublime_artisan_migrate"
+},{
+	"id" : "sublimeartisanmigraterollback",
+	"caption" : "Sublime Artisan Migrate:Rollback",
+	"command" : "sublime_artisan_migrate_rollback"
+},{
+	"id" : "sublimeartisanmigratereset",
+	"caption" : "Sublime Artisan Migrate:Reset",
+	"command" : "sublime_artisan_migrate_reset"
+},{
+	"id" : "sublimeartisankeygenerate",
+	"caption" : "Sublime Artisan Key:Generate",
+	"command" : "sublime_artisan_key_generate"
+},{
+	"id" : "sublimeartisanhelpcommands",
+	"caption" : "Sublime Artisan Help:Commands",
+	"command" : "sublime_artisan_help_commands"
+},{
+	"id" : "sublimeartisansessioncommand",
+	"caption" : "Sublime Artisan Session:Table",
+	"command" : "sublime_artisan_session_table"
+},{
+	"id" : "sublimeartisanmigratemake",
+	"caption" : "Sublime Artisan Migrate:Make",
+	"command" : "sublime_artisan_migrate_make"
+},{
+	"id" : "sublimeartisanmigrateapplication",
+	"caption" : "Sublime Artisan Migrate Application",
+	"command" : "sublime_artisan_migrate_application"
+},{
+	"id" : "sublimeartisanmigratebundle",
+	"caption" : "Sublime Artisan Migrate Bundle",
+	"command" : "sublime_artisan_migrate_bundle"
+},{
+	"id" : "SublimeArtisanBundleInstall",
+	"caption" : "Sublime Artisan Bundle:Install",
+	"command" : "sublime_artisan_bundle_install"
+},{
+	"id" : "SublimeArtisanBundleUpgrade",
+	"caption" : "Sublime Artisan Bundle:Upgrade",
+	"command" : "sublime_artisan_bundle_upgrade"
+},{
+	"id" : "SublimeArtisanBundleUpgradeAll",
+	"caption" : "Sublime Artisan Bundle:UpgradeAll",
+	"command" : "sublime_artisan_bundle_upgrade_all"
+},{
+	"id" : "SublimeArtisanBundlePublish",
+	"caption" : "Sublime Artisan Bundle:Publish",
+	"command" : "sublime_artisan_bundle_publish"
+},{
+	"id" : "SublimeArtisanBundlePublishAll",
+	"caption" : "Sublime Artisan Bundle:PublishAll",
+	"command" : "sublime_artisan_bundle_publish_all"
+},{
+	"id" : "SublimeArtisanCallTask",
+	"caption" : "Sublime Artisan Call Task",
+	"command" : "sublime_artisan_call_task"
+},{
+	"id" : "SublimeArtisanRunApplicationTests",
+	"caption" : "Sublime Artisan Run Application Tests",
+	"command" : "sublime_artisan_run_application_tests"
+},{
+	"id" : "SublimeArtisanRunBundleTests",
+	"caption" : "Sublime Artisan Run Bundle Tests",
+	"command" : "sublime_artisan_run_bundle_tests"
+},{
+	"id" : "SublimeArtisanRouteCall",
+	"caption" : "Sublime Artisan Route:Call",
+	"command" : "sublime_artisan_route_call"
+}]
