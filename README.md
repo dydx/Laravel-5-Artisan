@@ -26,3 +26,13 @@ Options Available:
 - Running the application tests (php artisan test)
 - Running the bundle tests (php artisan test bundle-name)
 - Calling a route (php artisan route:call get api/user/1)
+
+INSTALLATION
+Just create a the directory SublimeArtisan in your Sublime Text Packages directory, and you're ready to go.
+
+Just press Cmd + Shift + P for the dropdown command list, and search for Artisan, and pick your command :D
+
+NOTE: At the current moment, for the plugin to run correctly the artisan file needs to been in the root folder of your structure in the Side bar.
+
+This is a young plugin, still needs alot of testing.
+Give some feedback. Thanks.
