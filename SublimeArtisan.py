@@ -1,4 +1,4 @@
-import sublime, sublime_plugin
+import sublime, sublime_plugin, os
 import subprocess
 
 class SublimeArtisanKeyGenerateCommand(sublime_plugin.TextCommand):
