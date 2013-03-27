@@ -26,6 +26,7 @@ Options Available:
 - Running the application tests (php artisan test)
 - Running the bundle tests (php artisan test bundle-name)
 - Calling a route (php artisan route:call get api/user/1)
+- Support for Jeffrey Way's [Laravel Generator](https://github.com/JeffreyWay/Laravel-Generator)
 
 INSTALLATION
 Just create a the directory SublimeArtisan in your Sublime Text Packages directory, and you're ready to go.

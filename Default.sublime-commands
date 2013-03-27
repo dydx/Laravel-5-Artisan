@@ -70,4 +70,8 @@
 	"id" : "SublimeArtisanRouteCall",
 	"caption" : "Sublime Artisan Route:Call",
 	"command" : "sublime_artisan_route_call"
+},{
+	"id" : "SublimeArtisanGenerate",
+	"caption" : "Sublime Artisan Generate:",
+	"command" : "sublime_artisan_generate"
 }]
