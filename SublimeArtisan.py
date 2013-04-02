@@ -281,3 +281,24 @@ class SublimeArtisanRouteCallCommand(sublime_plugin.WindowCommand):
 
 		except ValueError:
 			pass
+
+class SublimeArtisanGenerateCommand(sublime_plugin.WindowCommand):
+	def run(self):
+		self.window.show_input_panel("[controller|model|view|migration|test|asset|resource|help] [args] ", "", self.on_done, None, None)
+
+	def on_done(self, generate_command):
+		try:
+			folder = self.window.folders()[0]
+			os.chdir(folder)
+
+			args = generate_command.split(" ")
+			cmd = 'generate:' + args[0]
+			print (["php", "artisan", cmd, args[1:]])
+			
+			self.window.run_command("exec", {
+				"cmd" : ["php", "artisan", cmd] + args[1:],
+				"shell" : False,
+				"working_dir" : folder})
+
+		except ValueError:
+			pass
