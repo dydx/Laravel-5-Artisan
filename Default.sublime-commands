@@ -1,77 +1,299 @@
-[{
-	"id" : "sublimeartisanmigrate",
-	"caption" : "Sublime Artisan Migrate",
-	"command" : "sublime_artisan_migrate"
-},{
-	"id" : "sublimeartisanmigraterollback",
-	"caption" : "Sublime Artisan Migrate:Rollback",
-	"command" : "sublime_artisan_migrate_rollback"
-},{
-	"id" : "sublimeartisanmigratereset",
-	"caption" : "Sublime Artisan Migrate:Reset",
-	"command" : "sublime_artisan_migrate_reset"
-},{
-	"id" : "sublimeartisankeygenerate",
-	"caption" : "Sublime Artisan Key:Generate",
-	"command" : "sublime_artisan_key_generate"
-},{
-	"id" : "sublimeartisanhelpcommands",
-	"caption" : "Sublime Artisan Help:Commands",
-	"command" : "sublime_artisan_help_commands"
-},{
-	"id" : "sublimeartisansessioncommand",
-	"caption" : "Sublime Artisan Session:Table",
-	"command" : "sublime_artisan_session_table"
-},{
-	"id" : "sublimeartisanmigratemake",
-	"caption" : "Sublime Artisan Migrate:Make",
-	"command" : "sublime_artisan_migrate_make"
-},{
-	"id" : "sublimeartisanmigrateapplication",
-	"caption" : "Sublime Artisan Migrate Application",
-	"command" : "sublime_artisan_migrate_application"
-},{
-	"id" : "sublimeartisanmigratebundle",
-	"caption" : "Sublime Artisan Migrate Bundle",
-	"command" : "sublime_artisan_migrate_bundle"
-},{
-	"id" : "SublimeArtisanBundleInstall",
-	"caption" : "Sublime Artisan Bundle:Install",
-	"command" : "sublime_artisan_bundle_install"
-},{
-	"id" : "SublimeArtisanBundleUpgrade",
-	"caption" : "Sublime Artisan Bundle:Upgrade",
-	"command" : "sublime_artisan_bundle_upgrade"
-},{
-	"id" : "SublimeArtisanBundleUpgradeAll",
-	"caption" : "Sublime Artisan Bundle:UpgradeAll",
-	"command" : "sublime_artisan_bundle_upgrade_all"
-},{
-	"id" : "SublimeArtisanBundlePublish",
-	"caption" : "Sublime Artisan Bundle:Publish",
-	"command" : "sublime_artisan_bundle_publish"
-},{
-	"id" : "SublimeArtisanBundlePublishAll",
-	"caption" : "Sublime Artisan Bundle:PublishAll",
-	"command" : "sublime_artisan_bundle_publish_all"
-},{
-	"id" : "SublimeArtisanCallTask",
-	"caption" : "Sublime Artisan Call Task",
-	"command" : "sublime_artisan_call_task"
-},{
-	"id" : "SublimeArtisanRunApplicationTests",
-	"caption" : "Sublime Artisan Run Application Tests",
-	"command" : "sublime_artisan_run_application_tests"
-},{
-	"id" : "SublimeArtisanRunBundleTests",
-	"caption" : "Sublime Artisan Run Bundle Tests",
-	"command" : "sublime_artisan_run_bundle_tests"
-},{
-	"id" : "SublimeArtisanRouteCall",
-	"caption" : "Sublime Artisan Route:Call",
-	"command" : "sublime_artisan_route_call"
-},{
-	"id" : "SublimeArtisanGenerate",
-	"caption" : "Sublime Artisan Generate:",
-	"command" : "sublime_artisan_generate"
-}]
+[
+    {
+        "caption": "Laravel Artisan: Help",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "help",
+            "fill_in": true,
+            "fill_in_lable": "Enter the command name"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Clear Compiled",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "clear-compiled"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Changes",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "changes"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: List",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "list"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Optimize",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "optimize"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Down",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "down"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Workbench",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "workbench",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of package"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Key: Generate",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "key:generate"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Session: Table",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "session:table"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Dump Autoload",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "dump-autoload"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Routes",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "routes"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Serve",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "serve"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Up",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "up"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Auth: Reminders",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "auth:reminders"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Asset: Publish",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "asset:publish",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of package"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Config: Publish",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "config:publish",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of package"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Command: Make",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "command:make",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the command"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Cache: Clear",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "cache:clear"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Controller: Make",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "controller:make",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the controller class"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: DB:Seed",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "db:seed"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Migrate",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "migrate"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Migrate: Install",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "migrate:install"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Migrate: Make",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "migrate:make",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the migration"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Migrate: Rollback",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "migrate:rollback"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Migrate: Reset",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "migrate:reset"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Migrate: Refresh",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "migrate:refresh"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Queue: Listen",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "queue:listen",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of connection"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Queue: Subscribe",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "queue:subscribe",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of Iron.io queue and the URL to be subscribed"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Queue: Work",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "queue:work",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of connection"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Custom Command",
+        "command": "laravel4_artisan"
+    },
+
+    {
+        "caption": "Laravel Generate: Model",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:model",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the model"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Seed",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:seed",
+            "fill_in": true,
+            "fill_in_lable": "Enter the table name you're seeding"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Test",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:test",
+            "fill_in": true,
+            "fill_in_lable": "Enter the file name for the test"
+        }
+    },
+    {
+        "caption": "Laravel Generate: View",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:view",
+            "fill_in": true,
+            "fill_in_lable": "Enter the file name of the view"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Migration",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:migration",
+            "fill_in": true,
+            "fill_in_lable": "Enter the Migration Name",
+            "fields": true,
+            "fields_label": "Table fields in the column:type format (optional)"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Resource",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:resource",
+            "fill_in": true,
+            "fill_in_lable": "Enter the singular name of the resource",
+            "fields": true,
+            "fields_label": "Table fields in the column:type format (optional)"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Scaffold",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:scaffold",
+            "fill_in": true,
+            "fill_in_lable": "Enter the singular name of the resource",
+            "fields": true,
+            "fields_label": "Table fields in the column:type format (optional)"
+        }
+    }
+]
