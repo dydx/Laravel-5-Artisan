@@ -37,7 +37,7 @@ Options Available:
 - Laravel Artisan: Queue: Work
 - Laravel Artisan: Session: Table
 - Laravel Artisan: Custom Command
-- Laravel Generate (Support for Jeffrey Way's [Laravel Generator](https://github.com/JeffreyWay/Laravel-4-Generator))
+- Laravel Generate (Support for Jeffrey Way's [Laravel Generators](https://github.com/JeffreyWay/Laravel-4-Generators))
 
 INSTALLATION
 Use Package Controller or create a the directory SublimeArtisan in your Sublime Text Packages directory, and you're ready to go.
