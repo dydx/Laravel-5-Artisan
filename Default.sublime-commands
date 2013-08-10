@@ -237,6 +237,15 @@
         }
     },
     {
+        "caption": "Laravel Generate: Controller",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:controller",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the controller"
+        }
+    },
+    {
         "caption": "Laravel Generate: Seed",
         "command": "laravel4_artisan",
         "args": {
@@ -294,6 +303,24 @@
             "fill_in_lable": "Enter the singular name of the resource",
             "fields": true,
             "fields_label": "Table fields in the column:type format (optional)"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Form",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:form",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the form"
+        }
+    },
+    {
+        "caption": "Laravel Generate: Pivot",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "generate:pivot",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the first table and of the first table separated by a space"
         }
     }
 ]

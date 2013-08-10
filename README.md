@@ -7,37 +7,48 @@ This plugin allows you the run the normal Artisan CLI using the Sublime Text int
 
 Options Available:
 
-- Laravel Artisan: Changes
-- Laravel Artisan: Clear Compiled
-- Laravel Artisan: Down
-- Laravel Artisan: Dump Autoload
-- Laravel Artisan: Help
-- Laravel Artisan: List
-- Laravel Artisan: Migrate
-- Laravel Artisan: Optimize
-- Laravel Artisan: Routes
-- Laravel Artisan: Serve
-- Laravel Artisan: Up
-- Laravel Artisan: Workbench
-- Laravel Artisan: Asset: Publish
-- Laravel Artisan: Auth: Reminders
-- Laravel Artisan: Cache: Clear
-- Laravel Artisan: Command: Make
-- Laravel Artisan: Config: Publish
-- Laravel Artisan: Controller: Make
-- Laravel Artisan: DB:Seed
-- Laravel Artisan: Key: Generate
-- Laravel Artisan: Migrate: Install
-- Laravel Artisan: Migrate: Make
-- Laravel Artisan: Migrate: Rollback
-- Laravel Artisan: Migrate: Reset
-- Laravel Artisan: Migrate: Refresh
-- Laravel Artisan: Queue: Listen
-- Laravel Artisan: Queue: Subscribe
-- Laravel Artisan: Queue: Work
-- Laravel Artisan: Session: Table
-- Laravel Artisan: Custom Command
-- Laravel Generate (Support for Jeffrey Way's [Laravel Generators](https://github.com/JeffreyWay/Laravel-4-Generators))
+- Laravel Artisan
+	- `Laravel Artisan: Changes`
+	- `Laravel Artisan: Clear Compiled`
+	- `Laravel Artisan: Down`
+	- `Laravel Artisan: Dump Autoload`
+	- `Laravel Artisan: Help`
+	- `Laravel Artisan: List`
+	- `Laravel Artisan: Migrate`
+	- `Laravel Artisan: Optimize`
+	- `Laravel Artisan: Routes`
+	- `Laravel Artisan: Serve`
+	- `Laravel Artisan: Up`
+	- `Laravel Artisan: Workbench`
+	- `Laravel Artisan: Asset: Publish`
+	- `Laravel Artisan: Auth: Reminders`
+	- `Laravel Artisan: Cache: Clear`
+	- `Laravel Artisan: Command: Make`
+	- `Laravel Artisan: Config: Publish`
+	- `Laravel Artisan: Controller: Make`
+	- `Laravel Artisan: DB:Seed`
+	- `Laravel Artisan: Key: Generate`
+	- `Laravel Artisan: Migrate: Install`
+	- `Laravel Artisan: Migrate: Make`
+	- `Laravel Artisan: Migrate: Rollback`
+	- `Laravel Artisan: Migrate: Reset`
+	- `Laravel Artisan: Migrate: Refresh`
+	- `Laravel Artisan: Queue: Listen`
+	- `Laravel Artisan: Queue: Subscribe`
+	- `Laravel Artisan: Queue: Work`
+	- `Laravel Artisan: Session: Table`
+	- `Laravel Artisan: Custom Command`
+- Laravel Generate (Support for Jeffrey Way's [Laravel Generators](https://github.com/JeffreyWay/Laravel-4-Generators)):
+	- `Laravel Generate: Model`
+	- `Laravel Generate: Controller`
+	- `Laravel Generate: Seed`
+	- `Laravel Generate: View`
+	- `Laravel Generate: Migration`
+	- `Laravel Generate: Resource`
+	- `Laravel Generate: Scaffold`
+	- `Laravel Generate: Form`
+	- `Laravel Generate: Test`
+	- `Laravel Generate: Pivot Table`
 
 INSTALLATION
 Use Package Controller or create a the directory SublimeArtisan in your Sublime Text Packages directory, and you're ready to go.
@@ -47,5 +58,5 @@ Press Cmd + Shift + P for the dropdown command list, search for Artisan, and pic
 
 NOTE: Artisan file needs to been in the root folder of your structure in the sidebar.
 
-Give some feedback. 
+Give some feedback.
 Thanks.
