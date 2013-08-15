@@ -51,10 +51,10 @@ Options Available:
 	- `Laravel Generate: Pivot Table`
 
 INSTALLATION
-Use Package Controller or create a the directory SublimeArtisan in your Sublime Text Packages directory, and you're ready to go.
+Use Package Controller or create a the directory LaravelArtisan in your Sublime Text Packages directory, and you're ready to go.
 
 USAGE
-Press Cmd + Shift + P for the dropdown command list, search for Artisan, and pick your command.
+Press Cmd + Shift + P for the dropdown command list, search for Laravel, and pick your command.
 
 NOTE: Artisan file needs to been in the root folder of your structure in the sidebar.
 
