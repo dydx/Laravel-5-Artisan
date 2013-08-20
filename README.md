@@ -5,58 +5,62 @@ Fork of Sublime Text plugin for Laravel 3 Artisan commands
 
 This plugin allows you the run the normal Artisan CLI using the Sublime Text interface, without having to open and use the command line.
 
-Options Available:
+### Available commands:
 
-- Laravel Artisan
-	- `Laravel Artisan: Changes`
-	- `Laravel Artisan: Clear Compiled`
-	- `Laravel Artisan: Down`
-	- `Laravel Artisan: Dump Autoload`
-	- `Laravel Artisan: Help`
-	- `Laravel Artisan: List`
-	- `Laravel Artisan: Migrate`
-	- `Laravel Artisan: Optimize`
-	- `Laravel Artisan: Routes`
-	- `Laravel Artisan: Serve`
-	- `Laravel Artisan: Up`
-	- `Laravel Artisan: Workbench`
-	- `Laravel Artisan: Asset: Publish`
-	- `Laravel Artisan: Auth: Reminders`
-	- `Laravel Artisan: Cache: Clear`
-	- `Laravel Artisan: Command: Make`
-	- `Laravel Artisan: Config: Publish`
-	- `Laravel Artisan: Controller: Make`
-	- `Laravel Artisan: DB:Seed`
-	- `Laravel Artisan: Key: Generate`
-	- `Laravel Artisan: Migrate: Install`
-	- `Laravel Artisan: Migrate: Make`
-	- `Laravel Artisan: Migrate: Rollback`
-	- `Laravel Artisan: Migrate: Reset`
-	- `Laravel Artisan: Migrate: Refresh`
-	- `Laravel Artisan: Queue: Listen`
-	- `Laravel Artisan: Queue: Subscribe`
-	- `Laravel Artisan: Queue: Work`
-	- `Laravel Artisan: Session: Table`
-	- `Laravel Artisan: Custom Command`
-- Laravel Generate (Support for Jeffrey Way's [Laravel Generators](https://github.com/JeffreyWay/Laravel-4-Generators)):
-	- `Laravel Generate: Model`
-	- `Laravel Generate: Controller`
-	- `Laravel Generate: Seed`
-	- `Laravel Generate: View`
-	- `Laravel Generate: Migration`
-	- `Laravel Generate: Resource`
-	- `Laravel Generate: Scaffold`
-	- `Laravel Generate: Form`
-	- `Laravel Generate: Test`
-	- `Laravel Generate: Pivot Table`
+##### Laravel Artisan
+- `Laravel Artisan: Changes`
+- `Laravel Artisan: Clear Compiled`
+- `Laravel Artisan: Down`
+- `Laravel Artisan: Dump Autoload`
+- `Laravel Artisan: Help`
+- `Laravel Artisan: List`
+- `Laravel Artisan: Migrate`
+- `Laravel Artisan: Optimize`
+- `Laravel Artisan: Routes`
+- `Laravel Artisan: Serve`
+- `Laravel Artisan: Up`
+- `Laravel Artisan: Workbench`
+- `Laravel Artisan: Asset: Publish`
+- `Laravel Artisan: Auth: Reminders`
+- `Laravel Artisan: Cache: Clear`
+- `Laravel Artisan: Command: Make`
+- `Laravel Artisan: Config: Publish`
+- `Laravel Artisan: Controller: Make`
+- `Laravel Artisan: DB:Seed`
+- `Laravel Artisan: Key: Generate`
+- `Laravel Artisan: Migrate: Install`
+- `Laravel Artisan: Migrate: Make`
+- `Laravel Artisan: Migrate: Rollback`
+- `Laravel Artisan: Migrate: Reset`
+- `Laravel Artisan: Migrate: Refresh`
+- `Laravel Artisan: Queue: Listen`
+- `Laravel Artisan: Queue: Subscribe`
+- `Laravel Artisan: Queue: Work`
+- `Laravel Artisan: Session: Table`
+- `Laravel Artisan: Custom Command`
 
-INSTALLATION
-Use Package Controller or create a the directory LaravelArtisan in your Sublime Text Packages directory, and you're ready to go.
+##### Laravel Generate (Support for Jeffrey Way's [Laravel Generators](https://github.com/JeffreyWay/Laravel-4-Generators)):
+- `Laravel Generate: Model`
+- `Laravel Generate: Controller`
+- `Laravel Generate: Seed`
+- `Laravel Generate: View`
+- `Laravel Generate: Migration`
+- `Laravel Generate: Resource`
+- `Laravel Generate: Scaffold`
+- `Laravel Generate: Form`
+- `Laravel Generate: Test`
+- `Laravel Generate: Pivot Table`
 
-USAGE
-Press Cmd + Shift + P for the dropdown command list, search for Laravel, and pick your command.
+### Installation:
+Use Package Controller or create a the directory `Laravel 4 Artisan` in your Sublime Text Packages directory, and you're ready to go.
 
-NOTE: Artisan file needs to been in the root folder of your structure in the sidebar.
+### Usage:
+Press Cmd + Shift + P for the dropdown command list, search for `Laravel `, and pick your command. Also you can use `Tools/Laravel...` menu item
+
+### Notes:
+- Artisan file needs to been in the root folder of your structure in the sidebar.
+- You need insert in Sublime Text user settings `"show_panel_on_build": true` or use `Tools/Build Results/Show Build Results` menu item for view results.
 
 Give some feedback.
+
 Thanks.
