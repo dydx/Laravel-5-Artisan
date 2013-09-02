@@ -8,7 +8,7 @@ class Laravel4ArtisanCommand(sublime_plugin.WindowCommand):
     def __init__(self, *args, **kwargs):
         super(Laravel4ArtisanCommand, self).__init__(*args, **kwargs)
         settings = sublime.load_settings('LaravelArtisan.sublime-settings')
-        self.php_path = settings.get('php_path', 'php')
+        self.php_path = settings.get('php_path')
 
     def run(self, *args, **kwargs):
         try:
