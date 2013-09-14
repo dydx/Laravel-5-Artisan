@@ -24,7 +24,7 @@
                 "children":
                 [
                     {
-                        "caption": "LaravelArtisan",
+                        "caption": "Laravel Artisan",
                         "children":
                         [
                             {
@@ -36,6 +36,11 @@
                                 "command": "open_file",
                                 "args": {"file": "${packages}/User/LaravelArtisan.sublime-settings"},
                                 "caption": "Settings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/LaravelArtisan.sublime-commands"},
+                                "caption": "Commands – User"
                             }
                         ]
                     }

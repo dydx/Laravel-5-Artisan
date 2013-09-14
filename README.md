@@ -51,8 +51,30 @@ This plugin allows you the run the normal Artisan CLI using the Sublime Text int
 - `Laravel Generate: Test`
 - `Laravel Generate: Pivot Table`
 
+##### Custom Commands
+You can add custom commands.
+Use `Preferences/Package Settings/Laravel Artisan/Commands – User` menu item.
+
+Simple command structure:
+
+```json
+[
+    {
+        "caption": "Laravel Artisan: Command name",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "command",
+            "fill_in": true,
+            "fill_in_lable": "Enter text..."
+        }
+    }
+]
+```
+
+Use `fill_in: true` if you need some input for your command and `fill_in_lable: "Text"` for message.
+
 ### Installation:
-Use Package Controller or create a the directory `Laravel 4 Artisan` in your Sublime Text Packages directory, and you're ready to go.
+Use Package Controller or create a the directory `Laravel 4 Artisan` in your Sublime Text Packages directory with source code, and you're ready to go.
 
 ### Usage:
 Press Cmd + Shift + P for the dropdown command list, search for `Laravel `, and pick your command. Also you can use `Tools/Laravel...` menu item

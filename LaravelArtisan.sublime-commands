@@ -320,7 +320,7 @@
         "args": {
             "command": "generate:pivot",
             "fill_in": true,
-            "fill_in_lable": "Enter the name of the first table and of the first table separated by a space"
+            "fill_in_lable": "Enter the name of the first table and of the second table separated by a space"
         }
     }
 ]
