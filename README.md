@@ -53,7 +53,7 @@ This plugin allows you the run the normal Artisan CLI using the Sublime Text int
 
 ##### Custom Commands
 You can add custom commands.
-Use `Preferences/Package Settings/Laravel Artisan/Commands – User` menu item.
+Use `Preferences/Package Settings/Laravel 4 Artisan/Commands – User` menu item.
 
 Simple command structure:
 
