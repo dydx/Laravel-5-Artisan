@@ -60,17 +60,18 @@ Simple command structure:
 ```json
 [
     {
-        "caption": "Laravel Artisan: Command name",
+        "caption": "Laravel Artisan: Deploy Project",
         "command": "laravel4_artisan",
         "args": {
-            "command": "command",
+            "command": "deploy",
             "fill_in": true,
-            "fill_in_lable": "Enter text..."
+            "fill_in_lable": "Enter the branch name with options"
         }
     }
 ]
 ```
 
+Change command `caption` and `command` in `args`.
 Use `fill_in: true` if you need some input for your command and `fill_in_lable: "Text"` for message.
 
 ### Installation:
