@@ -120,6 +120,15 @@
         }
     },
     {
+        "caption": "Laravel Artisan: View: Publish",
+        "command": "laravel4_artisan",
+        "args": {
+            "command": "view:publish",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of package"
+        }
+    },
+    {
         "caption": "Laravel Artisan: Command: Make",
         "command": "laravel4_artisan",
         "args": {
