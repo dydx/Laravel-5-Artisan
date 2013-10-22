@@ -32,32 +32,32 @@ class Laravel4ArtisanCommand(sublime_plugin.WindowCommand):
         except IndexError:
             sublime.status_message("Please open a Laravel Project")
 
-    def on_command(self, value):
-        self.args.append(value)
+    def on_command(self, command):
+        self.args.extend(shlex.split(str(self.command)))
+
         if self.fill_in_accept is True:
             self.window.show_input_panel(self.fill_in_label, "", self.on_fill_in, None, None)
         else:
             self.on_done()
 
-    def on_fill_in(self, value):
-        self.args.extend(shlex.split(str(value)))
+    def on_fill_in(self, fill_in):
+        self.args.extend(shlex.split(str(fill_in)))
 
         if self.fields_accept is True:
             self.window.show_input_panel(self.fields_label, "", self.on_fields, None, None)
         else:
             self.on_done()
 
-    def on_fields(self, value):
-        if value != '':
+    def on_fields(self, fields):
+        if fields != '':
             self.args.append('--fields=')
-            self.args.append(value)
+            self.args.append(fields)
             self.on_done()
         else:
             self.on_done()
 
     def on_command_custom(self, command):
-        self.command = command
-        self.args.extend(shlex.split(str(self.command)))
+        self.args.extend(shlex.split(str(command)))
         self.on_done()
 
     def on_done(self):
