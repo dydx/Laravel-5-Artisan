@@ -1,4 +1,4 @@
-Laravel 4 Artisan commands
+Laravel 4 Artisan commands [![Flattr this](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=evgeny.golubev&url=https%3A%2F%2Fgithub.com%2Fm0nah%2FLaravel-4-Artisan)
 ===============
 
 Fork of Sublime Text plugin for Laravel 3 Artisan commands
