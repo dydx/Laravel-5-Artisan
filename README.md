@@ -1,4 +1,4 @@
-Laravel 4 Artisan commands [![Flattr this](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=evgeny.golubev&url=https%3A%2F%2Fgithub.com%2Fm0nah%2FLaravel-4-Artisan)
+Laravel 4 Artisan commands
 ===============
 
 Fork of Sublime Text plugin for Laravel 3 Artisan commands
@@ -83,6 +83,11 @@ Press Cmd + Shift + P for the dropdown command list, search for `Laravel `, and 
 ### Notes:
 - Artisan file needs to been in the root folder of your structure in the sidebar.
 - You need insert in Sublime Text user settings `"show_panel_on_build": true` or use `Tools/Build Results/Show Build Results` menu item for view results.
+
+### Donate:
+If you liked this plugin, you can donate to support it!
+
+[![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4RCBDUG2TQEJY)
 
 Give some feedback.
 
