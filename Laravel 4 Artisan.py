@@ -9,20 +9,22 @@ class Laravel4ArtisanCommand(sublime_plugin.WindowCommand):
         super(Laravel4ArtisanCommand, self).__init__(*args, **kwargs)
         settings = sublime.load_settings('Laravel 4 Artisan.sublime-settings')
         self.php_path = settings.get('php_path')
+        self.artisan_path = settings.get('artisan_path')
 
     def run(self, *args, **kwargs):
         try:
             # The first folder needs to be the Laravel Project
             self.PROJECT_PATH = self.window.folders()[0]
-            self.args = [self.php_path, os.path.join(self.PROJECT_PATH, 'artisan')]
+            artisan_path = os.path.join(self.PROJECT_PATH, self.artisan_path)
+            self.args = [self.php_path, artisan_path]
 
-            if os.path.isfile("%s" % os.path.join(self.PROJECT_PATH, 'artisan')):
+            if os.path.isfile("%s" % artisan_path):
                 self.command = kwargs.get('command', None)
                 self.fill_in_accept = kwargs.get('fill_in', False)
                 self.fill_in_label = kwargs.get('fill_in_lable', 'Enter the resource name')
                 self.fields_accept = kwargs.get('fields', False)
                 self.fields_label = kwargs.get('fields_label', 'Enter the fields')
-                self.args = [self.php_path, os.path.join(self.PROJECT_PATH, 'artisan')]
+                self.args = [self.php_path, artisan_path]
                 if self.command is None:
                     self.window.show_input_panel('Command name w/o args:', '', self.on_command_custom, None, None)
                 else:
