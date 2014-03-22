@@ -1,3 +1,4 @@
 {
-	"php_path": "php"
+    "php_path": "php",
+    "artisan_path": "artisan"
 }
