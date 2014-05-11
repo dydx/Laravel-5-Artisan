@@ -68,7 +68,7 @@ class Laravel4ArtisanCommand(sublime_plugin.WindowCommand):
         try:
             self.window.run_command("exec", {
                 "cmd": self.args,
-                "shell": False,
+                "shell": os.name == 'nt',
                 "working_dir": self.PROJECT_PATH})
         except IOError:
             sublime.status_message('IOError - command aborted')
