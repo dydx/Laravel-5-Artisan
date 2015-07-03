@@ -52,9 +52,10 @@ class Laravel5ArtisanCommand(sublime_plugin.WindowCommand):
 
     def on_fields(self, fields):
         if fields != '':
-            self.args.append('--fields=')
+            self.args.append('--schema=')
             self.args.append(fields)
             self.on_done()
+            sublime.status_message(self.args)
         else:
             self.on_done()
 
