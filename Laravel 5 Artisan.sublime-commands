@@ -353,19 +353,17 @@
             "command": "make:migration",
             "fill_in": true,
             "fill_in_lable": "Enter the Migration Name",
-            "fields": true,
-            "fields_label": "Table fields in the column:type format (optional)"
         }
     },
     {
-        "caption": "Laravel make: Resource",
+        "caption": "Laravel make: Migration: Schema",
         "command": "laravel5_artisan",
         "args": {
-            "command": "make:resource",
+            "command": "make:migration:schema",
             "fill_in": true,
-            "fill_in_lable": "Enter the singular name of the resource",
+            "fill_in_lable": "Enter the Migration Name",
             "fields": true,
-            "fields_label": "Table fields in the column:type format (optional)"
+            "fields_label": "Table fields in the column:type format"
         }
     },
     {
