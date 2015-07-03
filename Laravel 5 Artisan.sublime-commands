@@ -279,12 +279,18 @@
             "fill_in_lable": "Enter the name of connection"
         }
     },
-
     {
         "caption": "Laravel Artisan: Queue: Failed",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:failed"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Queue: Flush",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "queue:flush"
         }
     },
     {
