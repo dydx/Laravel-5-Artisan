@@ -16,7 +16,7 @@ This plugin allows you the run the normal Artisan CLI using the Sublime Text int
 - `Laravel Artisan: List`
 - `Laravel Artisan: Migrate`
 - `Laravel Artisan: Optimize`
-- `Laravel Artisan: Routes`
+- `Laravel Artisan: Route`
 - `Laravel Artisan: Serve`
 - `Laravel Artisan: Up`
 - `Laravel Artisan: Workbench`
@@ -24,7 +24,6 @@ This plugin allows you the run the normal Artisan CLI using the Sublime Text int
 - `Laravel Artisan: Auth: Reminders`
 - `Laravel Artisan: Cache: Clear`
 - `Laravel Artisan: Command: Make`
-- `Laravel Artisan: Config: Publish`
 - `Laravel Artisan: Controller: Make`
 - `Laravel Artisan: DB:Seed`
 - `Laravel Artisan: Key: Generate`
@@ -39,16 +38,12 @@ This plugin allows you the run the normal Artisan CLI using the Sublime Text int
 - `Laravel Artisan: Session: Table`
 - `Laravel Artisan: Custom Command`
 
-##### Laravel Generate (Support for Jeffrey Way's [Laravel Generators](https://github.com/JeffreyWay/Laravel-4-Generators)):
+##### Laravel Generate (Support for Jeffrey Way's [Laravel Generators](https://github.com/laracasts/Laravel-5-Generators-Extended):
 - `Laravel Generate: Model`
 - `Laravel Generate: Controller`
 - `Laravel Generate: Seed`
 - `Laravel Generate: View`
 - `Laravel Generate: Migration`
-- `Laravel Generate: Resource`
-- `Laravel Generate: Scaffold`
-- `Laravel Generate: Form`
-- `Laravel Generate: Test`
 - `Laravel Generate: Pivot Table`
 
 ##### Custom Commands
@@ -61,7 +56,7 @@ Simple command structure:
 [
     {
         "caption": "Laravel Artisan: Deploy Project",
-        "command": "laravel4_artisan",
+        "command": "laravel5_artisan",
         "args": {
             "command": "deploy",
             "fill_in": true,
@@ -83,3 +78,4 @@ Press Cmd + Shift + P for the dropdown command list, search for `Laravel `, and 
 ### Notes:
 - Artisan file needs to been in the root folder of your structure in the sidebar.
 - You need insert in Sublime Text user settings `"show_panel_on_build": true` or use `Tools/Build Results/Show Build Results` menu item for view results.
+- Several commands do require [laracasts/generators](https://github.com/laracasts/Laravel-5-Generators-Extended) 
