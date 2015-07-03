@@ -4,9 +4,9 @@ import subprocess
 import sublime
 import sublime_plugin
 
-class Laravel4ArtisanCommand(sublime_plugin.WindowCommand):
+class Laravel5ArtisanCommand(sublime_plugin.WindowCommand):
     def __init__(self, *args, **kwargs):
-        super(Laravel4ArtisanCommand, self).__init__(*args, **kwargs)
+        super(Laravel5ArtisanCommand, self).__init__(*args, **kwargs)
         settings = sublime.load_settings('Laravel 5 Artisan.sublime-settings')
         self.php_path = settings.get('php_path')
         self.artisan_path = settings.get('artisan_path')
