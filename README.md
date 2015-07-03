@@ -1,7 +1,7 @@
-Laravel 4 Artisan commands
+Laravel 5 Artisan commands
 ===============
 
-Fork of Sublime Text plugin for Laravel 3 Artisan commands
+Fork of Sublime Text plugin for Laravel 4 Artisan commands
 
 This plugin allows you the run the normal Artisan CLI using the Sublime Text interface, without having to open and use the command line.
 
@@ -53,7 +53,7 @@ This plugin allows you the run the normal Artisan CLI using the Sublime Text int
 
 ##### Custom Commands
 You can add custom commands.
-Use `Preferences/Package Settings/Laravel 4 Artisan/Commands – User` menu item.
+Use `Preferences/Package Settings/Laravel 5 Artisan/Commands – User` menu item.
 
 Simple command structure:
 
@@ -75,7 +75,7 @@ Change command `caption` and `command` in `args`.
 Use `fill_in: true` if you need some input for your command and `fill_in_lable: "Text"` for message.
 
 ### Installation:
-Use Package Controller or create a the directory `Laravel 4 Artisan` in your Sublime Text Packages directory with source code, and you're ready to go.
+Use Package Controller or create a the directory `Laravel 5 Artisan` in your Sublime Text Packages directory with source code, and you're ready to go.
 
 ### Usage:
 Press Cmd + Shift + P for the dropdown command list, search for `Laravel `, and pick your command. Also you can use `Tools/Laravel...` menu item
@@ -83,12 +83,3 @@ Press Cmd + Shift + P for the dropdown command list, search for `Laravel `, and 
 ### Notes:
 - Artisan file needs to been in the root folder of your structure in the sidebar.
 - You need insert in Sublime Text user settings `"show_panel_on_build": true` or use `Tools/Build Results/Show Build Results` menu item for view results.
-
-### Donate:
-If you liked this plugin, you can donate to support it!
-
-[![Paypal donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4RCBDUG2TQEJY)
-
-Give some feedback.
-
-Thanks.

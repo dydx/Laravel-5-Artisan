@@ -24,22 +24,22 @@
                 "children":
                 [
                     {
-                        "caption": "Laravel 4 Artisan",
+                        "caption": "Laravel 5 Artisan",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/Laravel 4 Artisan/Laravel 4 Artisan.sublime-settings"},
+                                "args": {"file": "${packages}/Laravel 5 Artisan/Laravel 5 Artisan.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/Laravel 4 Artisan.sublime-settings"},
+                                "args": {"file": "${packages}/User/Laravel 5 Artisan.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/Laravel 4 Artisan.sublime-commands"},
+                                "args": {"file": "${packages}/User/Laravel 5 Artisan.sublime-commands"},
                                 "caption": "Commands – User"
                             }
                         ]
