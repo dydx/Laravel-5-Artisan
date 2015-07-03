@@ -367,30 +367,10 @@
         }
     },
     {
-        "caption": "Laravel make: Scaffold",
+        "caption": "Laravel make: Migration: Pivot",
         "command": "laravel5_artisan",
         "args": {
-            "command": "make:scaffold",
-            "fill_in": true,
-            "fill_in_lable": "Enter the singular name of the resource",
-            "fields": true,
-            "fields_label": "Table fields in the column:type format (optional)"
-        }
-    },
-    {
-        "caption": "Laravel make: Form",
-        "command": "laravel5_artisan",
-        "args": {
-            "command": "make:form",
-            "fill_in": true,
-            "fill_in_lable": "Enter the name of the form"
-        }
-    },
-    {
-        "caption": "Laravel make: Pivot",
-        "command": "laravel5_artisan",
-        "args": {
-            "command": "make:pivot",
+            "command": "make:migration:pivot",
             "fill_in": true,
             "fill_in_lable": "Enter the name of the first table and of the second table separated by a space"
         }
