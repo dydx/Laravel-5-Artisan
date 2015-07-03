@@ -8,14 +8,14 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Cache Clear",
+        "caption": "Laravel Artisan: Cache: Clear",
         "command": "laravel5_artisan",
         "args": {
             "command": "cache:clear"
         }
     },
     {
-        "caption": "Laravel Artisan: Cache Table",
+        "caption": "Laravel Artisan: Cache: Table",
         "command": "laravel5_artisan",
         "args": {
             "command": "cache:table"
@@ -96,21 +96,21 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Routes List",
+        "caption": "Laravel Artisan: Routes: List",
         "command": "laravel5_artisan",
         "args": {
             "command": "route:list"
         }
     },
     {
-        "caption": "Laravel Artisan: Routes Clear",
+        "caption": "Laravel Artisan: Routes: Clear",
         "command": "laravel5_artisan",
         "args": {
             "command": "route:clear"
         }
     },
     {
-        "caption": "Laravel Artisan: Routes Cache",
+        "caption": "Laravel Artisan: Routes: Cache",
         "command": "laravel5_artisan",
         "args": {
             "command": "route:Cache"
@@ -147,12 +147,17 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Config: Publish",
+        "caption": "Laravel Artisan: Config: Cache",
         "command": "laravel5_artisan",
         "args": {
-            "command": "config:publish",
-            "fill_in": true,
-            "fill_in_lable": "Enter the name of package"
+            "command": "config:cache",
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Config:clear",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "config:clear"
         }
     },
     {
