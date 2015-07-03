@@ -8,6 +8,20 @@
         }
     },
     {
+        "caption": "Laravel Artisan: Cache Clear",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "cache:clear"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Cache Table",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "cache:table"
+        }
+    },
+    {
         "caption": "Laravel Artisan: Help",
         "command": "laravel5_artisan",
         "args": {
