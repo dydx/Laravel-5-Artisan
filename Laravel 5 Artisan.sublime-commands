@@ -189,7 +189,7 @@
         "caption": "Laravel Artisan: Controller: Make",
         "command": "laravel5_artisan",
         "args": {
-            "command": "controller:make",
+            "command": "make:controller",
             "fill_in": true,
             "fill_in_lable": "Enter the name of the controller class"
         }
