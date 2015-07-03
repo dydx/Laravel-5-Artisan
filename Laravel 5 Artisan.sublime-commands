@@ -216,6 +216,13 @@
         }
     },
     {
+        "caption": "Laravel Artisan: Migrate: Status",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "migrate:status"
+        }
+    },
+    {
         "caption": "Laravel Artisan: Migrate: Make",
         "command": "laravel5_artisan",
         "args": {
