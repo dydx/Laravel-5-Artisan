@@ -173,7 +173,7 @@
         "caption": "Laravel Artisan: Command: Make",
         "command": "laravel5_artisan",
         "args": {
-            "command": "command:make",
+            "command": "make:command",
             "fill_in": true,
             "fill_in_lable": "Enter the name of the command"
         }
