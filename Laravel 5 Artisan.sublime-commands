@@ -299,7 +299,7 @@
         "caption": "Laravel make: Seed",
         "command": "laravel5_artisan",
         "args": {
-            "command": "make:seed",
+            "command": "make:seeder",
             "fill_in": true,
             "fill_in_lable": "Enter the table name you're seeding"
         }
