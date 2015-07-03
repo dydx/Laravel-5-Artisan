@@ -74,10 +74,24 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Routes",
+        "caption": "Laravel Artisan: Routes List",
         "command": "laravel5_artisan",
         "args": {
-            "command": "routes"
+            "command": "route:list"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Routes Clear",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "route:clear"
+        }
+    },
+    {
+        "caption": "Laravel Artisan: Routes Cache",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "route:cache"
         }
     },
     {
