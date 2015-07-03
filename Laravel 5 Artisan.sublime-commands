@@ -1,4 +1,12 @@
 [
+    
+    {
+        "caption": "Laravel Artisan: Env",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "env"
+        }
+    },
     {
         "caption": "Laravel Artisan: Help",
         "command": "laravel5_artisan",
@@ -91,7 +99,7 @@
         "caption": "Laravel Artisan: Routes Cache",
         "command": "laravel5_artisan",
         "args": {
-            "command": "route:cache"
+            "command": "route:Cache"
         }
     },
     {
