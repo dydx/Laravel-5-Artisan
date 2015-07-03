@@ -1,7 +1,7 @@
 Laravel 5 Artisan commands
 ===============
 
-Fork of Sublime Text plugin for Laravel 4 Artisan commands
+Fork of Sublime Text plugin for Laravel 5 Artisan commands
 
 This plugin allows you the run the normal Artisan CLI using the Sublime Text interface, without having to open and use the command line.
 
