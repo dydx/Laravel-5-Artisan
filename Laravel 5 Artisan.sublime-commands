@@ -219,7 +219,7 @@
         "caption": "Laravel Artisan: Migrate: Make",
         "command": "laravel5_artisan",
         "args": {
-            "command": "migrate:make",
+            "command": "make:migration",
             "fill_in": true,
             "fill_in_lable": "Enter the name of the migration"
         }
