@@ -294,6 +294,13 @@
         }
     },
     {
+        "caption": "Laravel Artisan: Queue: Restart",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "queue:restart"
+        }
+    },
+    {
         "caption": "Laravel Artisan: Custom Command",
         "command": "laravel5_artisan"
     },
