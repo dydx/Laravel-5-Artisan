@@ -340,21 +340,10 @@
         }
     },
     {
-        "caption": "Laravel make: Test",
+        "caption": "Laravel Artisan: View: Clear",
         "command": "laravel5_artisan",
         "args": {
-            "command": "make:test",
-            "fill_in": true,
-            "fill_in_lable": "Enter the file name for the test"
-        }
-    },
-    {
-        "caption": "Laravel make: View",
-        "command": "laravel5_artisan",
-        "args": {
-            "command": "make:view",
-            "fill_in": true,
-            "fill_in_lable": "Enter the file name of the view"
+            "command": "view:clear"
         }
     },
     {
