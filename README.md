@@ -5,6 +5,8 @@ Fork of Sublime Text plugin for Laravel 4 Artisan commands
 
 This plugin allows you the run the normal Artisan CLI using the Sublime Text interface, without having to open and use the command line.
 
+Several of the commands, such as `Laravel Artisan: Make: Migration Schema` require `laracasts/generators` to be installed, as the associated commands are not native to Laravel (yet).
+
 ### Available commands:
 
 ##### Laravel Artisan
