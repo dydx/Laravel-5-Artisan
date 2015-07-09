@@ -47,6 +47,8 @@ Several of the commands, such as `Laravel Artisan: Make: Migration Schema` requi
 - `Laravel Artisan: Make: Event`
 - `Laravel Artisan: Make: Middleware`
 - `Laravel Artisan: Make: Migration`
+- `Laravel Artisan: Make: Migration: Schema`
+- `Laravel Artisan: Make: Migration: Pivot`
 - `Laravel Artisan: Make: Model`
 - `Laravel Artisan: Make: Provider`
 - `Laravel Artisan: Make: Request`
