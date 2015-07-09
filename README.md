@@ -9,46 +9,96 @@ Several of the commands, such as `Laravel Artisan: Make: Migration Schema` requi
 
 ### Available commands:
 
-##### Laravel Artisan
-- `Laravel Artisan: Changes`
+##### General
 - `Laravel Artisan: Clear Compiled`
 - `Laravel Artisan: Down`
-- `Laravel Artisan: Dump Autoload`
 - `Laravel Artisan: Help`
 - `Laravel Artisan: List`
 - `Laravel Artisan: Migrate`
 - `Laravel Artisan: Optimize`
-- `Laravel Artisan: Route`
 - `Laravel Artisan: Serve`
 - `Laravel Artisan: Up`
-- `Laravel Artisan: Workbench`
-- `Laravel Artisan: Asset: Publish`
-- `Laravel Artisan: Auth: Reminders`
+
+##### App
+- `Laravel Artisan: App: Name`
+
+##### Auth
+- `Laravel Artisan: Auth: Clear Resets`
+
+##### Cache
 - `Laravel Artisan: Cache: Clear`
-- `Laravel Artisan: Command: Make`
-- `Laravel Artisan: Controller: Make`
-- `Laravel Artisan: DB:Seed`
+- `Laravel Artisan: Cache: Table`
+
+##### Config
+- `Laravel Artisan: Config: Cache`
+- `Laravel Artisan: Config: Clear`
+
+##### DB
+- `Laravel Artisan: DB: Seed`
+
+##### Event
+- `Laravel Artisan: Event: Generate`
+
+##### Handler
+- `Laravel Artisan: Handler: Command`
+- `Laravel Artisan: Handler: Event`
+
+##### Key
 - `Laravel Artisan: Key: Generate`
+
+##### Make
+- `Laravel Artisan: Make: Command`
+- `Laravel Artisan: Make: Controller`
+- `Laravel Artisan: Make: Event`
+- `Laravel Artisan: Make: Job`
+- `Laravel Artisan: Make: Listener`
+- `Laravel Artisan: Make: Middleware`
+- `Laravel Artisan: Make: Migration`
+- `Laravel Artisan: Make: Model`
+- `Laravel Artisan: Make: Provider`
+- `Laravel Artisan: Make: Request`
+- `Laravel Artisan: Make: Seeder`
+
+##### Migrate
 - `Laravel Artisan: Migrate: Install`
-- `Laravel Artisan: Migrate: Make`
-- `Laravel Artisan: Migrate: Rollback`
-- `Laravel Artisan: Migrate: Reset`
 - `Laravel Artisan: Migrate: Refresh`
+- `Laravel Artisan: Migrate: Reset`
+- `Laravel Artisan: Migrate: Rollback`
+- `Laravel Artisan: Migrate: Status`
+
+##### Queue
+- `Laravel Artisan: Queue: Failed`
+- `Laravel Artisan: Queue: Failed: Table`
+- `Laravel Artisan: Queue: Flush`
+- `Laravel Artisan: Queue: Forget`
 - `Laravel Artisan: Queue: Listen`
+- `Laravel Artisan: Queue: Restart`
+- `Laravel Artisan: Queue: Retry`
 - `Laravel Artisan: Queue: Subscribe`
+- `Laravel Artisan: Queue: Table`
 - `Laravel Artisan: Queue: Work`
+
+##### Route
+- `Laravel Artisan: Route: Cache`
+- `Laravel Artisan: Route: Clear`
+- `Laravel Artisan: Route: List`
+
+##### Schedule
+- `Laravel Artisan: Schedule: Run`
+
+##### Session
 - `Laravel Artisan: Session: Table`
+
+##### Vendor
+- `Laravel Artisan: Vendor: Publish`
+
+##### View
+- `Laravel Artisan: View: Clear`
+
+##### Custom
 - `Laravel Artisan: Custom Command`
 
-##### Laravel Generate (Support for Jeffrey Way's [Laravel Generators](https://github.com/laracasts/Laravel-5-Generators-Extended):
-- `Laravel Generate: Model`
-- `Laravel Generate: Controller`
-- `Laravel Generate: Seed`
-- `Laravel Generate: View`
-- `Laravel Generate: Migration`
-- `Laravel Generate: Pivot Table`
-
-##### Custom Commands
+### Custom Commands
 You can add custom commands.
 Use `Preferences/Package Settings/Laravel 5 Artisan/Commands – User` menu item.
 
