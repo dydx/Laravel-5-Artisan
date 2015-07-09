@@ -39,19 +39,12 @@ Several of the commands, such as `Laravel Artisan: Make: Migration Schema` requi
 ##### Event
 - `Laravel Artisan: Event: Generate`
 
-##### Handler
-- `Laravel Artisan: Handler: Command`
-- `Laravel Artisan: Handler: Event`
-
 ##### Key
 - `Laravel Artisan: Key: Generate`
 
 ##### Make
-- `Laravel Artisan: Make: Command`
 - `Laravel Artisan: Make: Controller`
 - `Laravel Artisan: Make: Event`
-- `Laravel Artisan: Make: Job`
-- `Laravel Artisan: Make: Listener`
 - `Laravel Artisan: Make: Middleware`
 - `Laravel Artisan: Make: Migration`
 - `Laravel Artisan: Make: Model`
