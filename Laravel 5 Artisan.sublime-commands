@@ -210,9 +210,9 @@
         "caption": "Laravel Make: Request",
         "command": "laravel5_artisan",
         "args": {
-            "command": "make:provider",
+            "command": "make:request",
             "fill_in": true,
-            "fill_in_lable": "Enter the name of the provider"
+            "fill_in_lable": "Enter the name of the request"
         }
     },
     {
