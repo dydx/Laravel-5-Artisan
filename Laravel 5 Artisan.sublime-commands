@@ -51,6 +51,13 @@
         }
     },
     {
+        "caption": "Laravel Artisan 5: Stop Serving",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "serveStop",
+        }
+    },
+    {
         "caption": "Laravel Artisan 5: Up",
         "command": "laravel5_artisan",
         "args": {

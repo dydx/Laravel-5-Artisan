@@ -17,6 +17,7 @@ Several of the commands, such as `Laravel Artisan: Make: Migration Schema` requi
 - `Laravel Artisan 5: Migrate`
 - `Laravel Artisan 5: Optimize`
 - `Laravel Artisan 5: Serve`
+- `Laravel Artisan 5: Stop Serving`
 - `Laravel Artisan 5: Up`
 
 ##### App
