@@ -1,20 +1,20 @@
 [
     {
-        "caption": "Laravel Artisan: Clear Compiled",
+        "caption": "Laravel Artisan 5: Clear Compiled",
         "command": "laravel5_artisan",
         "args": {
             "command": "clear-compiled"
         }
     },
     {
-        "caption": "Laravel Artisan: Down",
+        "caption": "Laravel Artisan 5: Down",
         "command": "laravel5_artisan",
         "args": {
             "command": "down"
         }
     },
     {
-        "caption": "Laravel Artisan: Help",
+        "caption": "Laravel Artisan 5: Help",
         "command": "laravel5_artisan",
         "args": {
             "command": "help",
@@ -23,44 +23,49 @@
         }
     },
     {
-        "caption": "Laravel Artisan: List",
+        "caption": "Laravel Artisan 5: List",
         "command": "laravel5_artisan",
         "args": {
             "command": "list"
         }
     },
     {
-        "caption": "Laravel Artisan: Migrate",
+        "caption": "Laravel Artisan 5: Migrate",
         "command": "laravel5_artisan",
         "args": {
             "command": "migrate"
         }
     },
     {
-        "caption": "Laravel Artisan: Optimize",
+        "caption": "Laravel Artisan 5: Optimize",
         "command": "laravel5_artisan",
         "args": {
             "command": "optimize"
         }
     },
     {
-        "caption": "Laravel Artisan: Serve",
+        "caption": "Laravel Artisan 5: Serve",
         "command": "laravel5_artisan",
         "args": {
             "command": "serve"
         }
     },
     {
-        "caption": "Laravel Artisan: Up",
+        "caption": "Laravel Artisan 5: Stop Serving",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "serveStop",
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Up",
         "command": "laravel5_artisan",
         "args": {
             "command": "up"
         }
     },
-
-
     {
-        "caption": "Laravel Artisan: App: Name",
+        "caption": "Laravel Artisan 5: App:Name",
         "command": "laravel5_artisan",
         "args": {
             "command": "app:name",
@@ -68,72 +73,64 @@
             "fill_in_lable": "Enter your desired namespace"
         }
     },
-
     {
-        "caption": "Laravel Artisan: Auth: Clear Resets",
+        "caption": "Laravel Artisan 5: Auth:Clear Resets",
         "command": "laravel5_artisan",
         "args": {
             "command": "auth:clear-resets"
         }
     },
-
     {
-        "caption": "Laravel Artisan: Cache: Clear",
+        "caption": "Laravel Artisan 5: Cache:Clear",
         "command": "laravel5_artisan",
         "args": {
             "command": "cache:clear"
         }
     },
     {
-        "caption": "Laravel Artisan: Cache: Table",
+        "caption": "Laravel Artisan 5: Cache:Table",
         "command": "laravel5_artisan",
         "args": {
             "command": "cache:table"
         }
     },
-
     {
-        "caption": "Laravel Artisan: Config: Cache",
+        "caption": "Laravel Artisan 5: Config:Cache",
         "command": "laravel5_artisan",
         "args": {
             "command": "config:cache"
         }
     },
     {
-        "caption": "Laravel Artisan: Config: Clear",
+        "caption": "Laravel Artisan 5: Config:Clear",
         "command": "laravel5_artisan",
         "args": {
             "command": "config:clear"
         }
     },
-
     {
-        "caption": "Laravel Artisan: DB: Seed",
+        "caption": "Laravel Artisan 5: DB:Seed",
         "command": "laravel5_artisan",
         "args": {
             "command": "db:seed"
         }
     },
-
     {
-        "caption": "Laravel Artisan: Event: Generate",
+        "caption": "Laravel Artisan 5: Event:Generate",
         "command": "laravel5_artisan",
         "args": {
             "command": "event:generate"
         }
     },
-
-
     {
-        "caption": "Laravel Artisan: Key: Generate",
+        "caption": "Laravel Artisan 5: Key:Generate",
         "command": "laravel5_artisan",
         "args": {
             "command": "key:generate"
         }
     },
-
     {
-        "caption": "Laravel Artisan: Make: Controller",
+        "caption": "Laravel Artisan 5: Make:Controller",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:controller",
@@ -142,7 +139,7 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Make: Event",
+        "caption": "Laravel Artisan 5: Make:Event",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:event",
@@ -151,7 +148,25 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Make: Middleware",
+        "caption": "Laravel Artisan 5: Make:Job",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:job",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the job class"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make:Listener",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:listener",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the listener class"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make:Middleware",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:middleware",
@@ -160,7 +175,7 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Make: Migration",
+        "caption": "Laravel Artisan 5: Make:Migration",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:migration",
@@ -169,7 +184,7 @@
         }
     },
     {
-        "caption": "Laravel make: Make: Migration: Schema",
+        "caption": "Laravel Generate 5: Migration:Schema",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:migration:schema",
@@ -180,7 +195,7 @@
         }
     },
     {
-        "caption": "Laravel make: Make Migration: Pivot",
+        "caption": "Laravel Generate 5: Migration:Pivot",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:migration:pivot",
@@ -189,7 +204,7 @@
         }
     },
     {
-        "caption": "Laravel Make: Model",
+        "caption": "Laravel Artisan 5: Make:Model",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:model",
@@ -198,7 +213,7 @@
         }
     },
     {
-        "caption": "Laravel Make: Provider",
+        "caption": "Laravel Artisan 5: Make:Provider",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:provider",
@@ -207,7 +222,7 @@
         }
     },
     {
-        "caption": "Laravel Make: Request",
+        "caption": "Laravel Artisan 5: Make:Request",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:request",
@@ -216,7 +231,7 @@
         }
     },
     {
-        "caption": "Laravel Make: Seeder",
+        "caption": "Laravel Artisan 5: Make:Seeder",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:seeder",
@@ -224,68 +239,64 @@
             "fill_in_lable": "Enter the name of the seeder"
         }
     },
-
-
     {
-        "caption": "Laravel Artisan: Migrate: Install",
+        "caption": "Laravel Artisan 5: Migrate:Install",
         "command": "laravel5_artisan",
         "args": {
             "command": "migrate:install"
         }
     },
     {
-        "caption": "Laravel Artisan: Migrate: Refresh",
+        "caption": "Laravel Artisan 5: Migrate:Refresh",
         "command": "laravel5_artisan",
         "args": {
             "command": "migrate:refresh"
         }
     },
     {
-        "caption": "Laravel Artisan: Migrate: Reset",
+        "caption": "Laravel Artisan 5: Migrate:Reset",
         "command": "laravel5_artisan",
         "args": {
             "command": "migrate:reset"
         }
     },
     {
-        "caption": "Laravel Artisan: Migrate: Rollback",
+        "caption": "Laravel Artisan 5: Migrate:Rollback",
         "command": "laravel5_artisan",
         "args": {
             "command": "migrate:rollback"
         }
     },
     {
-        "caption": "Laravel Artisan: Migrate: Status",
+        "caption": "Laravel Artisan 5: Migrate:Status",
         "command": "laravel5_artisan",
         "args": {
             "command": "migrate:status"
         }
     },
-
-
     {
-        "caption": "Laravel Artisan: Queue: Failed",
+        "caption": "Laravel Artisan 5: Queue:List Failed Jobs",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:failed"
         }
     },
     {
-        "caption": "Laravel Artisan: Queue: Failed: Table",
+        "caption": "Laravel Artisan 5: Queue:Failed Table",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:failed-table"
         }
     },
     {
-        "caption": "Laravel Artisan: Queue: Flush",
+        "caption": "Laravel Artisan 5: Queue:Flush",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:flush"
         }
     },
     {
-        "caption": "Laravel Artisan: Queue: Forget",
+        "caption": "Laravel Artisan 5: Queue:Forget",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:flush",
@@ -294,7 +305,7 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Queue: Listen",
+        "caption": "Laravel Artisan 5: Queue:Listen",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:listen",
@@ -303,21 +314,21 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Queue: Restart",
+        "caption": "Laravel Artisan 5: Queue:Restart",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:restart"
         }
     },
     {
-        "caption": "Laravel Artisan: Queue: Retry",
+        "caption": "Laravel Artisan 5: Queue:Retry",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:retry"
         }
     },
     {
-        "caption": "Laravel Artisan: Queue: Subscribe",
+        "caption": "Laravel Artisan 5: Queue:Subscribe",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:subscribe",
@@ -326,14 +337,14 @@
         }
     },
     {
-        "caption": "Laravel Artisan: Queue: Table",
+        "caption": "Laravel Artisan 5: Queue:Table",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:table"
         }
     },
     {
-        "caption": "Laravel Artisan: Queue: Work",
+        "caption": "Laravel Artisan 5: Queue:Work",
         "command": "laravel5_artisan",
         "args": {
             "command": "queue:work",
@@ -341,47 +352,43 @@
             "fill_in_lable": "Enter the name of connection"
         }
     },
-
     {
-        "caption": "Laravel Artisan: Route: Cache",
+        "caption": "Laravel Artisan 5: Route:Cache",
         "command": "laravel5_artisan",
         "args": {
             "command": "route:Cache"
         }
     },
     {
-        "caption": "Laravel Artisan: Route: Clear",
+        "caption": "Laravel Artisan 5: Route:Clear",
         "command": "laravel5_artisan",
         "args": {
             "command": "route:clear"
         }
     },
     {
-        "caption": "Laravel Artisan: Route: List",
+        "caption": "Laravel Artisan 5: Route:List",
         "command": "laravel5_artisan",
         "args": {
             "command": "route:list"
         }
     },
-
     {
-        "caption": "Laravel Artisan: Schedule: Run",
+        "caption": "Laravel Artisan 5: Schedule:Run",
         "command": "laravel5_artisan",
         "args": {
             "command": "schedule:run"
         }
     },
-
     {
-        "caption": "Laravel Artisan: Session: Table",
+        "caption": "Laravel Artisan 5: Session:Table",
         "command": "laravel5_artisan",
         "args": {
             "command": "session:table"
         }
     },
-
     {
-        "caption": "Laravel Artisan: Vendor: Publish",
+        "caption": "Laravel Artisan 5: Vendor:Publish",
         "command": "laravel5_artisan",
         "args": {
             "command": "vendor:publish",
@@ -389,9 +396,8 @@
             "fill_in_lable": "Enter the name of package"
         }
     },
-
     {
-        "caption": "Laravel Artisan: View: Clear",
+        "caption": "Laravel Artisan 5: View:Clear",
         "command": "laravel5_artisan",
         "args": {
             "command": "view:clear"
