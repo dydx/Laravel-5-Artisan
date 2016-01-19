@@ -20,15 +20,6 @@ class Laravel5ArtisanCommand(sublime_plugin.WindowCommand):
 
             if os.path.isfile("%s" % artisan_path):
                 self.command = kwargs.get('command', None)
-                if self.command == 'serveStop':
-                    plat = platform.system()
-                    if plat == 'Windows':
-                        self.command = 'taskkill /F /IM php.exe'
-                    else:
-                        self.command = 'killall php'
-                    self.args = []
-                else:
-                    self.args = [self.php_path, artisan_path]
                 self.fill_in_accept = kwargs.get('fill_in', False)
                 self.fill_in_label = kwargs.get('fill_in_lable', 'Enter the resource name')
                 self.fields_accept = kwargs.get('fields', False)
