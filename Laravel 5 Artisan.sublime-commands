@@ -184,7 +184,7 @@
         }
     },
     {
-        "caption": "Laravel Generate 5: Migration:Schema",
+        "caption": "Laravel Generate 5: Make:Migration:Schema",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:migration:schema",
@@ -195,7 +195,7 @@
         }
     },
     {
-        "caption": "Laravel Generate 5: Migration:Pivot",
+        "caption": "Laravel Generate 5: Make:Migration:Pivot",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:migration:pivot",
