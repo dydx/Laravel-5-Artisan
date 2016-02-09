@@ -123,6 +123,24 @@
         }
     },
     {
+        "caption": "Laravel Artisan 5: Make:Auth",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:auth",
+            "fill_in": true,
+            "fill_in_lable": "Enter make:auth options (optional)"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make:Console",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:console",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the command class"
+        }
+    },
+    {
         "caption": "Laravel Artisan 5: Make:Controller",
         "command": "laravel5_artisan",
         "args": {
@@ -230,6 +248,15 @@
             "command": "make:seeder",
             "fill_in": true,
             "fill_in_lable": "Enter the name of the seeder"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make:Test",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:test",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the test"
         }
     },
     {
