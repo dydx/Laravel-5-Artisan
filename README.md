@@ -17,7 +17,6 @@ Several of the commands, such as `Laravel Artisan: Make: Migration Schema` requi
 - `Laravel Artisan 5: Migrate`
 - `Laravel Artisan 5: Optimize`
 - `Laravel Artisan 5: Serve`
-- `Laravel Artisan 5: Stop Serving`
 - `Laravel Artisan 5: Up`
 
 ##### App
@@ -48,8 +47,8 @@ Several of the commands, such as `Laravel Artisan: Make: Migration Schema` requi
 - `Laravel Artisan 5: Make:Event`
 - `Laravel Artisan 5: Make:Middleware`
 - `Laravel Artisan 5: Make:Migration`
-- `Laravel Generate 5: Migration: Schema`
-- `Laravel Generate 5: Migration: Pivot                  `
+- `Laravel Generate 5: Make:Migration: Schema`
+- `Laravel Generate 5: Make:Migration: Pivot`
 - `Laravel Artisan 5: Make:Model`
 - `Laravel Artisan 5: Make:Provider`
 - `Laravel Artisan 5: Make:Request`

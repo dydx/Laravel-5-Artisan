@@ -5,7 +5,7 @@
         "children":
         [
             {
-                "caption": "Laravel...",
+                "caption": "Laravel 5...",
                 "command": "show_overlay",
                 "args": {"overlay": "command_palette", "text": "Laravel " }
             }

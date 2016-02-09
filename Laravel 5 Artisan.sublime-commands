@@ -51,13 +51,6 @@
         }
     },
     {
-        "caption": "Laravel Artisan 5: Stop Serving",
-        "command": "laravel5_artisan",
-        "args": {
-            "command": "serveStop",
-        }
-    },
-    {
         "caption": "Laravel Artisan 5: Up",
         "command": "laravel5_artisan",
         "args": {
@@ -184,7 +177,7 @@
         }
     },
     {
-        "caption": "Laravel Generate 5: Migration:Schema",
+        "caption": "Laravel Generate 5: Make:Migration:Schema",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:migration:schema",
@@ -195,7 +188,7 @@
         }
     },
     {
-        "caption": "Laravel Generate 5: Migration:Pivot",
+        "caption": "Laravel Generate 5: Make:Migration:Pivot",
         "command": "laravel5_artisan",
         "args": {
             "command": "make:migration:pivot",
