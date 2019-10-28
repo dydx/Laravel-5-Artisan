@@ -177,6 +177,15 @@
         }
     },
     {
+        "caption": "Laravel Artisan 5: Make:Mail",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:mail",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the mailable class"
+        }
+    },
+    {
         "caption": "Laravel Artisan 5: Make:Middleware",
         "command": "laravel5_artisan",
         "args": {
