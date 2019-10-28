@@ -132,10 +132,10 @@
         }
     },
     {
-        "caption": "Laravel Artisan 5: Make:Console",
+        "caption": "Laravel Artisan 5: Make:Command",
         "command": "laravel5_artisan",
         "args": {
-            "command": "make:console",
+            "command": "make:command",
             "fill_in": true,
             "fill_in_lable": "Enter the name of the command class"
         }
@@ -174,6 +174,15 @@
             "command": "make:listener",
             "fill_in": true,
             "fill_in_lable": "Enter the name of the listener class"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make:Mail",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:mail",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the mailable class"
         }
     },
     {
