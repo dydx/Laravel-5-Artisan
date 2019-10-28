@@ -43,18 +43,31 @@ Several of the commands, such as `Laravel Artisan: Make: Migration Schema` requi
 - `Laravel Artisan 5: Key:Generate`
 
 ##### Make
+- `Laravel Artisan 5: Make:Auth`
+- `Laravel Artisan 5: Make:Channel`
+- `Laravel Artisan 5: Make:Command`
 - `Laravel Artisan 5: Make:Controller`
 - `Laravel Artisan 5: Make:Event`
+- `Laravel Artisan 5: Make:Exception`
+- `Laravel Artisan 5: Make:Factory`
+- `Laravel Artisan 5: Make:Job`
+- `Laravel Artisan 5: Make:Listener`
+- `Laravel Artisan 5: Make:Mail`
 - `Laravel Artisan 5: Make:Middleware`
 - `Laravel Artisan 5: Make:Migration`
 - `Laravel Generate 5: Make:Migration: Schema`
 - `Laravel Generate 5: Make:Migration: Pivot`
 - `Laravel Artisan 5: Make:Model`
+- `Laravel Artisan 5: Make:Notification`
+- `Laravel Artisan 5: Make:Observer`
 - `Laravel Artisan 5: Make:Provider`
 - `Laravel Artisan 5: Make:Request`
+- `Laravel Artisan 5: Make:Resource`
 - `Laravel Artisan 5: Make:Seeder`
+- `Laravel Artisan 5: Make:Test`
 
 ##### Migrate
+- `Laravel Artisan 5: Migrate:Fresh`
 - `Laravel Artisan 5: Migrate:Install`
 - `Laravel Artisan 5: Migrate:Refresh`
 - `Laravel Artisan 5: Migrate:Reset`
