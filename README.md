@@ -43,8 +43,10 @@ Several of the commands, such as `Laravel Artisan: Make: Migration Schema` requi
 - `Laravel Artisan 5: Key:Generate`
 
 ##### Make
+- `Laravel Artisan 5: Make:Command`
 - `Laravel Artisan 5: Make:Controller`
 - `Laravel Artisan 5: Make:Event`
+- `Laravel Artisan 5: Make:Mail`
 - `Laravel Artisan 5: Make:Middleware`
 - `Laravel Artisan 5: Make:Migration`
 - `Laravel Generate 5: Make:Migration: Schema`
