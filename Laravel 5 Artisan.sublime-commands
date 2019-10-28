@@ -132,6 +132,15 @@
         }
     },
     {
+        "caption": "Laravel Artisan 5: Make:Channel",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:channel",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the channel class"
+        }
+    },
+    {
         "caption": "Laravel Artisan 5: Make:Command",
         "command": "laravel5_artisan",
         "args": {
@@ -156,6 +165,24 @@
             "command": "make:event",
             "fill_in": true,
             "fill_in_lable": "Enter the name of the event class"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make:Exception",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:exception",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the exception class"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make:Factory",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:factory",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the factory class"
         }
     },
     {
@@ -233,6 +260,33 @@
         }
     },
     {
+        "caption": "Laravel Artisan 5: Make:Notification",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:notification",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the notification class"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make:Observer",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:observer",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the observer class"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make Policy",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:policy",
+            "fill_in": true,
+            "fill_in_lable": "Enter the Policy name"
+        }
+    },
+    {
         "caption": "Laravel Artisan 5: Make:Provider",
         "command": "laravel5_artisan",
         "args": {
@@ -248,6 +302,24 @@
             "command": "make:request",
             "fill_in": true,
             "fill_in_lable": "Enter the name of the request"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make:Resource",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:resource",
+            "fill_in": true,
+            "fill_in_lable": "Enter the name of the resource"
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Make Rule",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "make:rule",
+            "fill_in": true,
+            "fill_in_lable": "Enter the rule name"
         }
     },
     {
@@ -276,7 +348,14 @@
         }
     },
     {
-        "caption": "Laravel Artisan 5: Migrate:Refresh",
+        "caption": "Laravel Artisan 5: Migrate:Fresh (Drop all tables and re-run all migrations)",
+        "command": "laravel5_artisan",
+        "args": {
+            "command": "migrate:fresh",
+        }
+    },
+    {
+        "caption": "Laravel Artisan 5: Migrate:Refresh (Reset and re-run all migrations)",
         "command": "laravel5_artisan",
         "args": {
             "command": "migrate:refresh"
